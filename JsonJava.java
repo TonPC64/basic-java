@@ -29,8 +29,8 @@ public class JsonJava {
     HttpResponse res = client.execute(request);
     BufferedReader br = new BufferedReader(new InputStreamReader(res.getEntity().getContent()));
 
-     String response = new String();
-     for (String line; (line = br.readLine()) != null; response += line);
-     System.out.println(response);
+    String response = new String();
+    for (String line; (line = br.readLine()) != null; response += line);
+    System.out.println(response);
   }
 }
