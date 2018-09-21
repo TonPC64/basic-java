@@ -2,6 +2,16 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - JsonJava",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "JsonJava",
+      "args": ""
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Lambdas",
       "request": "launch",
       "cwd": "${workspaceFolder}",
